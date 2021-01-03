@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	   <title>hamza berouijil</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"/>
+    <meta name="keywords" content="HTML,CSS,JS,lindengpage,ad,book,colors,email" />
+    <meta name="description" content="this is my first lindengpage it is about a books ingagement"/>
+    <meta name="author" content="hamza berouijil"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+
+</head>
+<body>
+	<div class="wape">
+     
+         <div class="bar">
+       
+          <img class="image" src="logo.png"> 
+             <ul style="display: inline-block;">
+                
+                 <li><a href="#"></a>HOME </li>
+                 <li><a href="#"></a>Page  </li>
+                 <li> <a href="#"></a>Aboute</li> 
+                 <li> <a href="#"></a>Fag   </li>
+                
+             </ul>
+        </div>
+
+         <div>
+         	<article>
+         		<h1 id="ma9ola">graet devlopper start whithe graet books</h1>
+         	    <br>
+         	    <p>devbook is a application contient a 1000 book<br> evrey web-devlopper need.
+         	    </p>
+         	</article>
+         </div>
+         
+                 <div> 
+        	<h1>last chans</h1>
+        	<form id="email">
+        	<div id="timer">
+        		02:00
+        	</div >
+        	<img id="clock" src="clock.png">
+              <form>
+         	         <input type="text" value="email">
+         	         <input type="button" value="sign up">
+               </form>	
+         	</form>
+         
+        </div>
+
+<svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7c9473" fill-opacity="1" d="M0,32L34.3,53.3C68.6,75,137,117,206,154.7C274.3,192,343,224,411,245.3C480,267,549,277,617,266.7C685.7,256,754,224,823,186.7C891.4,149,960,107,1029,106.7C1097.1,107,1166,149,1234,149.3C1302.9,149,1371,107,1406,85.3L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+
+       </div>
+</body>
+</html>
+
+<script type="text/javascript">
+    var timeoutHandle;
+
+
+
+    function countdown(minutes, seconds) {
+        var seconds = 60;
+
+
+        var mins = minutes
+
+        function tick() {
+            var counter = document.getElementById("timer");
+            var current_minutes = mins - 1
+            seconds--;
+            counter.innerHTML = current_minutes.toString() + ":" + (seconds < 10 ? "0" : "") + String(seconds);
+            if (seconds > 0) {
+                timeoutHandle = setTimeout(tick, 1000);
+            } else {
+
+                if (mins > 1) {
+
+                    // countdown(mins-1);   never reach “00″ issue solved:Contributed by Victor Streithorst
+                    setTimeout(function() {
+                        countdown(mins - 1);
+                    }, 1000);
+
+                }
+            }
+        }
+        tick();
+    }
+
+    countdown(2);
+</script>

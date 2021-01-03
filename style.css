@@ -1,0 +1,84 @@
+.image  {
+height: 60px;
+width: 60px;
+margin:0px;
+
+}
+.bar ul li {
+
+	display: inline-block;
+	padding:0px;
+	 text-align: right;
+    height: 0px;
+    width: 200px;
+    text-decoration: none;
+    color: #cfdac8;
+    
+}
+
+
+
+.bar {
+     
+
+   font-family: Arial Narrow,Arial,sans-serif;
+ font-size: 25px;	
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+#clock {
+
+height: 30px;
+width: 30px;
+
+}
+#timer {
+
+
+	font-size: 30px;
+	display: inline-block; 
+}
+#ma9ola {
+
+
+	font-family: 'Yellowtail', cursive;
+	font-size: 50px;
+	margin-left: 30px;
+}
+p{
+
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	margin-left: 40px;
+}
+
+#email {
+
+
+	margin-left: 650px;
+}
+h1{
+
+	margin-left: 730px;
+}
+.wape { 
+
+background: rgba(0,0,0,0.4) url(book.jpeg) no-repeat;
+background-position: center;
+background-size: cover;
+min-height: 105vh;
+overflow: hidden;
+background-blend-mode: overlay;
+
+}
+.wave{
+
+	position: absolute;
+	width: 100%;
+	bottom: -70px;
+	color: #fff;
+	opacity: 1;
+}
